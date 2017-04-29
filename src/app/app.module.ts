@@ -1,3 +1,4 @@
+import { GenerateTest } from './../pages/generate-test/generate-test';
 import { MenuTest } from './../pages/menu-test/menu-test';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -12,7 +13,8 @@ import { HomePage } from '../pages/home/home';
   declarations: [
     MyApp,
     HomePage,
-    MenuTest
+    MenuTest,
+    GenerateTest
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { HomePage } from '../pages/home/home';
   entryComponents: [
     MyApp,
     HomePage,
-    MenuTest
+    MenuTest,
+    GenerateTest
   ],
   providers: [
     StatusBar,
