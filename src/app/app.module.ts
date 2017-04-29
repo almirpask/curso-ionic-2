@@ -1,3 +1,4 @@
+import { HttpModule } from '@angular/http';
 import { GenerateTest } from './../pages/generate-test/generate-test';
 import { MenuTest } from './../pages/menu-test/menu-test';
 import { BrowserModule } from '@angular/platform-browser';
@@ -18,6 +19,7 @@ import { HomePage } from '../pages/home/home';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
