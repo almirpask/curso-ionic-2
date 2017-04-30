@@ -31,6 +31,7 @@ export class GenerateTest {
       console.log(json);
     }).catch((err)=>{
       console.log(err);
+      console.log('Teste');
     });
   }
 }
