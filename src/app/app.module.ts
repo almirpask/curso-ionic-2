@@ -1,3 +1,4 @@
+import { Grid } from './../pages/grid/grid';
 import { List } from './../pages/list/list';
 import { Input } from './../pages/input/input';
 import { Icons } from './../pages/icons/icons';
@@ -27,7 +28,8 @@ import { HomePage } from '../pages/home/home';
     Card,
     Icons,
     Input,
-    List
+    List,
+    Grid
 
   ],
   imports: [
@@ -46,7 +48,8 @@ import { HomePage } from '../pages/home/home';
     Card,
     Icons,
     Input,
-    List
+    List,
+    Grid
     
   ],
   providers: [
