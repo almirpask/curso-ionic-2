@@ -1,3 +1,4 @@
+import { Button } from './../pages/button/button';
 import { Alert } from './../pages/alert/alert';
 import { HttpModule } from '@angular/http';
 import { GenerateTest } from './../pages/generate-test/generate-test';
@@ -17,7 +18,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     MenuTest,
     GenerateTest,
-    Alert
+    Alert,
+    Button
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     MenuTest,
     GenerateTest,
-    Alert
+    Alert,
+    Button
   ],
   providers: [
     StatusBar,
