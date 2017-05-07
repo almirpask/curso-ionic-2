@@ -1,3 +1,4 @@
+import { Alert } from './../pages/alert/alert';
 import { GenerateTest } from './../pages/generate-test/generate-test';
 import { MenuTest } from './../pages/menu-test/menu-test';
 import { Component } from '@angular/core';
@@ -19,6 +20,7 @@ export class MyApp {
       {component: HomePage, title: 'Home', icon:'home'},
       {component: MenuTest, title: 'Menu Teste', icon:'home'},
       {component: GenerateTest, title: 'Generate', icon:'home'},
+      {component: Alert, title: 'Alert', icon:'alert'},
     ];
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.

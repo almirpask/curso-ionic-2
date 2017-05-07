@@ -1,3 +1,4 @@
+import { Alert } from './../pages/alert/alert';
 import { HttpModule } from '@angular/http';
 import { GenerateTest } from './../pages/generate-test/generate-test';
 import { MenuTest } from './../pages/menu-test/menu-test';
@@ -15,7 +16,8 @@ import { HomePage } from '../pages/home/home';
     MyApp,
     HomePage,
     MenuTest,
-    GenerateTest
+    GenerateTest,
+    Alert
   ],
   imports: [
     BrowserModule,
@@ -27,7 +29,8 @@ import { HomePage } from '../pages/home/home';
     MyApp,
     HomePage,
     MenuTest,
-    GenerateTest
+    GenerateTest,
+    Alert
   ],
   providers: [
     StatusBar,
