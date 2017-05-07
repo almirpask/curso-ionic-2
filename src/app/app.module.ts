@@ -1,3 +1,4 @@
+import { List } from './../pages/list/list';
 import { Input } from './../pages/input/input';
 import { Icons } from './../pages/icons/icons';
 import { Card } from './../pages/card/card';
@@ -25,7 +26,8 @@ import { HomePage } from '../pages/home/home';
     Button,
     Card,
     Icons,
-    Input
+    Input,
+    List
 
   ],
   imports: [
@@ -43,7 +45,9 @@ import { HomePage } from '../pages/home/home';
     Button,
     Card,
     Icons,
-    Input
+    Input,
+    List
+    
   ],
   providers: [
     StatusBar,

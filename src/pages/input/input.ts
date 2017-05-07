@@ -13,8 +13,8 @@ import { IonicPage, NavController, NavParams , AlertController} from 'ionic-angu
   templateUrl: 'input.html',
 })
 export class Input {
-  logon:string;
-  senh:string;
+  login:string;
+  senha:string;
   constructor(public navCtrl: NavController, public navParams: NavParams, public alertCtrl: AlertController) {
   }
 
@@ -23,7 +23,7 @@ export class Input {
   }
 
   entrar(){
-    let texto = ('Login'+ this.logon + 'senha' + this.senh);
+    let texto = ('Login: '+ this.login + ' senha: ' + this.senha);
     let alert = this.alertCtrl.create({
       title: 'entrando...',
       subTitle: texto
