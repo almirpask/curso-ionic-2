@@ -1,3 +1,4 @@
+import { Input } from './../pages/input/input';
 import { Icons } from './../pages/icons/icons';
 import { Card } from './../pages/card/card';
 import { Button } from './../pages/button/button';
@@ -27,6 +28,7 @@ export class MyApp {
       {component: Button, title: 'Button', icon:'md-radio-button-on'},
       {component: Card, title: 'Card', icon:'md-albums'},
       {component: Icons, title: 'Icons', icon:'md-attach'},
+      {component: Input, title: 'Inputs', icon:'md-attach'},
     ];
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.

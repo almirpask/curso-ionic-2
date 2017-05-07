@@ -1,3 +1,4 @@
+import { Input } from './../pages/input/input';
 import { Icons } from './../pages/icons/icons';
 import { Card } from './../pages/card/card';
 import { Button } from './../pages/button/button';
@@ -23,7 +24,9 @@ import { HomePage } from '../pages/home/home';
     Alert,
     Button,
     Card,
-    Icons
+    Icons,
+    Input
+
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,8 @@ import { HomePage } from '../pages/home/home';
     Alert,
     Button,
     Card,
-    Icons
+    Icons,
+    Input
   ],
   providers: [
     StatusBar,
