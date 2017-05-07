@@ -1,3 +1,4 @@
+import { Card } from './../pages/card/card';
 import { Button } from './../pages/button/button';
 import { Alert } from './../pages/alert/alert';
 import { GenerateTest } from './../pages/generate-test/generate-test';
@@ -23,6 +24,7 @@ export class MyApp {
       {component: GenerateTest, title: 'Generate', icon:'home'},
       {component: Alert, title: 'Alert', icon:'alert'},
       {component: Button, title: 'Button', icon:'md-radio-button-on'},
+      {component: Card, title: 'Card', icon:'md-albums'},
     ];
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
