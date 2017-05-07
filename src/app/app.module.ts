@@ -1,3 +1,4 @@
+import { Icons } from './../pages/icons/icons';
 import { Card } from './../pages/card/card';
 import { Button } from './../pages/button/button';
 import { Alert } from './../pages/alert/alert';
@@ -21,7 +22,8 @@ import { HomePage } from '../pages/home/home';
     GenerateTest,
     Alert,
     Button,
-    Card
+    Card,
+    Icons
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { HomePage } from '../pages/home/home';
     GenerateTest,
     Alert,
     Button,
-    Card
+    Card,
+    Icons
   ],
   providers: [
     StatusBar,
