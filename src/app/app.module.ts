@@ -1,3 +1,4 @@
+import { Navigation } from './../pages/navigation/navigation';
 import { ModalLogin } from './../pages/modal-login/modal-login';
 import { Modal } from './../pages/modal/modal';
 import { Grid } from './../pages/grid/grid';
@@ -33,7 +34,8 @@ import { HomePage } from '../pages/home/home';
     List,
     Grid,
     Modal,
-    ModalLogin
+    ModalLogin,
+    Navigation
 
 
   ],
@@ -56,7 +58,8 @@ import { HomePage } from '../pages/home/home';
     List,
     Grid,
     Modal,
-    ModalLogin
+    ModalLogin,
+    Navigation
     
   ],
   providers: [
