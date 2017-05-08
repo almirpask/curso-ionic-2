@@ -1,3 +1,5 @@
+import { ModalLogin } from './../pages/modal-login/modal-login';
+import { Modal } from './../pages/modal/modal';
 import { Grid } from './../pages/grid/grid';
 import { List } from './../pages/list/list';
 import { Input } from './../pages/input/input';
@@ -29,7 +31,10 @@ import { HomePage } from '../pages/home/home';
     Icons,
     Input,
     List,
-    Grid
+    Grid,
+    Modal,
+    ModalLogin
+
 
   ],
   imports: [
@@ -49,7 +54,9 @@ import { HomePage } from '../pages/home/home';
     Icons,
     Input,
     List,
-    Grid
+    Grid,
+    Modal,
+    ModalLogin
     
   ],
   providers: [
