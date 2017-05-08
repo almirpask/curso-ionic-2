@@ -1,3 +1,5 @@
+import { Toast } from './../pages/toast/toast';
+import { Tab } from './../pages/tab/tab';
 import { Navigation } from './../pages/navigation/navigation';
 import { Modal } from './../pages/modal/modal';
 import { Grid } from './../pages/grid/grid';
@@ -37,6 +39,8 @@ export class MyApp {
       {component: Grid, title: 'Grids', icon:'star'},
       {component: Modal, title: 'Modals', icon:'md-bonfire'},
       {component: Navigation, title: 'Navigations', icon:'navigate'},
+      {component: Tab, title: 'Tabs', icon:'sync'},
+      {component: Toast, title: 'Toast', icon:'sunny'},
 
     ];
     platform.ready().then(() => {

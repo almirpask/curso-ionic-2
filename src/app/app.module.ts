@@ -1,3 +1,7 @@
+import { Toast } from './../pages/toast/toast';
+import { HomeTab } from './../pages/home-tab/home-tab';
+import { ContatosTab } from './../pages/contatos-tab/contatos-tab';
+import { Tab } from './../pages/tab/tab';
 import { Navigation } from './../pages/navigation/navigation';
 import { ModalLogin } from './../pages/modal-login/modal-login';
 import { Modal } from './../pages/modal/modal';
@@ -35,7 +39,11 @@ import { HomePage } from '../pages/home/home';
     Grid,
     Modal,
     ModalLogin,
-    Navigation
+    Navigation,
+    Tab,
+    ContatosTab,
+    HomeTab,
+    Toast
 
 
   ],
@@ -59,7 +67,11 @@ import { HomePage } from '../pages/home/home';
     Grid,
     Modal,
     ModalLogin,
-    Navigation
+    Navigation,
+    Tab,
+    ContatosTab,
+    HomeTab,
+    Toast
     
   ],
   providers: [
